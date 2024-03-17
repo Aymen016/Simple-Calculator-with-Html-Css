@@ -23,9 +23,6 @@ This is a simple calculator project created using HTML and CSS. It allows users 
 
 5. The result will be displayed on the calculator screen.
 
-## Screenshots
-
-<img src"C:\Users\T440\Documents\web\Calculator (2).jpeg">
 
 ## Contributing
 
