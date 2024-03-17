@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .calculator-container {
+            border: 4px solid #1e272e;
+            padding: 20px;
+            background-color: #fafafa;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .display-container {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            margin-bottom: 10px;
+            border: solid black;
+        }
+
+        #display {
+            width: 80%;
+            font-size: 30px;
+            padding: 15px;
+            text-align: right;
+            border: none;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            outline: none;
+        }
+
+        .casio-header {
+            font-size: 32px;
+            margin-bottom: 20px;
+            align-self: flex-start;
+            color: #333;
+        }
+
+        .row {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+
+        button {
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 30px;
+            padding: 20px 30px;
+            margin: 10px;
+            background-color: #4caf50;
+            color: #fff;
+            border: none;
+            width: 23%;
+            
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="calculator-container">
+        <div class="casio-header">CASIO</div>
+        <div class="display-container">
+            <input type="text" id="display" readonly>
+        </div>
+        
+        <div class="row">
+            <button >7</button>
+            <button >8</button>
+            <button >9</button>
+            <button >/</button>
+        </div>
+        <div class="row">
+            <button >4</button>
+            <button >5</button>
+            <button >6</button>
+            <button >*</button>
+        </div>
+        <div class="row">
+            <button >1</button>
+            <button >2</button>
+            <button >3</button>
+            <button >+</button>
+        </div>
+        <div class="row">
+            <button >0</button>
+            <button >=</button>
+            <button >C</button>
+            <button >-</button>
+        </div>
+    </div>
+
+</body>
+</html>
